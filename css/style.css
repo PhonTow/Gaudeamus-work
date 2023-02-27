@@ -1,0 +1,340 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.class__header {
+    max-width: 1216px;
+    margin: 0 auto;
+    padding: 0 11px;
+    box-sizing: content-box;
+    /* border: 1px solid #cecece; */
+}
+
+.container {
+padding-top: 12px;
+padding-bottom: 12px;
+}
+
+.class__header-wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-logo {
+    display: block;
+    min-width: 100px;
+    width: 100px;
+    height: 48px;
+}
+.header-logo img {
+    object-fit: contain;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+    padding-left: 16px;
+}
+
+.header-media {
+    display: flex;
+  margin-left: auto;
+  align-items: center;
+  gap: 24px;
+}
+
+
+.media {
+    display: block;
+
+}
+
+.media img {
+    object-fit: contain;
+
+}
+
+.help-header {
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #212121CC;
+
+}
+
+.header-call {
+    padding-left: 16px;
+
+}
+
+.phone {
+    display: block;
+}
+
+.phone img {
+    object-fit: contain;
+
+}
+
+.link {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #212121;
+}
+
+.frame {
+    padding-top: 90px;
+}
+
+.frame__wrap {
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+
+.frame__content {
+    max-width: 598px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.frame__name {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    /* font-family: 'Montserrat';
+    font-style: normal; */
+    color: #212121;
+    /* p.s  здесь должен быть Montserrat, но он не работает */
+}
+
+.decr {
+display: flex;
+align-items: center;
+margin-top: 24px;
+margin-bottom: 32px;
+}
+
+.decr-text {
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+}
+
+.tick {
+    width: 18px;
+    height: 18px;
+    border-radius: 100px;
+    margin-right: 8px;
+}
+
+.frame_text {
+    font-weight: 500;
+    font-size: 18px;
+    color: #4D4D4D;
+    line-height: 24px;
+    /* margin-bottom: 16px; */
+}
+
+.free-constl {
+    /* display: flex;
+    justify-content: flex-start; */
+    /* width: auto; */
+	width: fit-content;
+    height: auto;
+    background-color: #3E38F2;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+     text-align: center;
+    color: #ffff;
+     cursor: pointer;
+    padding-top: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 20px rgba(62, 56, 242, 0.4);
+    margin-top: 16px;
+}
+
+.frame__img {
+	max-width: 600px;
+	height: 408px;
+	width: 50%;
+}
+
+.description__line {
+   max-width: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 62px;
+    margin-bottom: 60px;
+   
+}
+
+.headline::first-letter {
+    color: #3E38F2;
+    
+}
+
+.description-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #212121;
+   
+    margin-bottom: 32px;
+}
+
+
+
+.cards-description {
+display: flex;
+flex-wrap: wrap;
+}
+
+
+
+.description__card {
+margin: auto;
+width: 280px;
+border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.card__teeth-text {
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 16px;
+    padding-right: 48px;
+    padding-left: 48px;
+    padding-bottom: 16px;
+    white-space: nowrap;
+}
+
+
+.photo {
+    max-width: 280px;
+    object-fit: contain;
+}
+
+
+/* .class__director {
+
+} */
+
+.box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.director-descr {
+display: flex;
+flex-direction: column;
+
+}
+
+.words-direct {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 130%;
+    color: rgba(33, 33, 33, 0.5);
+    
+}
+
+.hospital-open-word::first-letter {
+    color: #3E38F2;
+}
+
+.hospital-open {
+    margin-top: 8px;
+    color: #212121;
+    font-size: 22px;
+    line-height: 130%;
+    font-weight: 600;
+}
+
+.words-hospital {
+   margin-top: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 170%;
+    color: #4D4D4D;
+}
+
+/* .face-direct {
+display: flex;
+flex-wrap: nowrap;
+flex-direction: column;
+} */
+
+
+.women {
+    max-width: 456px;
+    height: 360px;
+
+}
+
+.name-direct {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 62px;
+}
+
+.dental-office_photo {
+    display: flex;
+    align-items: center;
+}
+
+.strelka {
+    width: 8px;
+    height: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.dental {
+ max-width: 323px;
+}
+
+.dental1 {
+    max-width: 448px;
+}
+
+
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+
+   
+}
+
+.button1 {
+    width: 6px;
+    height: 6px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
