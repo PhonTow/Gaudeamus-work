@@ -177,7 +177,8 @@ line-height: 18px;
    margin-left: auto;
    margin-right: auto;
    margin-top: 62px;
-    margin-bottom: 60px;
+   margin-bottom: 60px;
+   object-fit: contain;
    
 }
 
@@ -347,6 +348,13 @@ flex-direction: column;
     box-sizing: content-box;
 }
 
+.case {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    
+}
+
 .title::first-letter {
     color: #3E38F2;
 }
@@ -356,6 +364,8 @@ flex-direction: column;
     font-weight: 600;
     line-height: 130%;
     color: #212121;
+    display: flex;
+    justify-content: center;
    
 }
 
@@ -366,14 +376,103 @@ flex-direction: column;
     color: #212121;
 } */
 
-.text {
+.advant__text {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto;
+   
+}
+
+.text-ad {
     font-size: 16px;
     line-height: 130%;
     font-weight: 400;
     color: #212121;
+    margin-top: 18px;
 }
 
 .medicine {
     max-width: 598px;
     height: 242px;
+    border-radius: 4px;
 }
+
+.applicta {
+    max-width: 1216px;
+    margin: 0 auto;
+    padding: 0 11px;
+    box-sizing: content-box;
+}
+
+.applicta__card {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appl {
+ 
+    width: 1216px;
+    height: 178px;
+    background: linear-gradient(91.24deg, #3E38F2 0%, rgba(62, 56, 242, 0.7) 100%);
+    box-shadow: 0px 0px 25px rgba(62, 56, 242, 0.3);
+    border-radius: 10px;
+
+}
+
+.applicta__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   
+}
+
+.applicta__text {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 130%;
+    color: #FFFFFF;
+    
+}
+
+
+.applicta__button {
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    width: fit-content;
+    height: auto;
+    text-align: center;
+}
+
+.diagnost {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 130%;
+    color: #3E38F2;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.applicta__tel {
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+    width: fit-content;
+    height: auto;
+}
+
+/* .tel__but {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 130%;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 96px;
+} */
+
