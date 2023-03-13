@@ -12,8 +12,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700;800&display=swap"
         rel="stylesheet">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
 </head>
 
 <body>
@@ -24,6 +22,15 @@
                 <p class="name">Современная и надежная <br>
                     стоматология в СПб</p>
 
+                <div class="menu">
+                    <div class="menu__list">
+                        <a href="#" class="menu__link">О нас</a>
+                        <a href="#" class="menu__link">Услуги</a>
+                        <a href="#" class="menu__link">Команда</a>
+                        <a href="#" class="menu__link">Контакты</a>
+                    </div>
+                </div>
+
                 <div class="header-media">
                     <a href="#" class="media"><img src="./img/socmedia.svg" alt=""></a>
                     <p class="help-header">Есть вопросы? <br>
@@ -33,6 +40,11 @@
                     <a href="#" class="phone"><img src="./img/phone.svg" alt=""></a>
                     <a href="#" class="link">Заказать звонок</a>
                 </div>
+                <button class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
 
         </div>
@@ -50,19 +62,6 @@
                                 <img src="./img/Vector.svg" alt="" class="tick"> Максимальное обезболивание даже при
                                 сложной проблеме
                             </div>
-                            <!-- <ul class="list">
-								<li class="list-item">
-									<img src="./img/Vector.svg" alt="" class="list-item__img"> Опыт врачей от 10 лет и с высшим образованием
-								</li>
-								<li class="list-item">
-									<img src="./img/Vector.svg" alt="" class="list-item__img">
-									<span class="list-item__text">Опыт врачей от 10 лет и с высшим образованием</span>
-								</li>
-								<li class="list-item">
-									<img src="./img/Vector.svg" alt="" class="list-item__img">
-									<span class="list-item__text">Опыт врачей от 10 лет и с высшим образованием</span>
-								</li>
-							</ul> -->
                         </div>
                         <p class="frame_text">Запишитесь на бесплатную диагностику и получите <br>
                             ** в подарок до (+3 дня со дня открытия сайта)</p>
@@ -209,47 +208,131 @@
     <div class="description__line">
         <img src="./img/Line12.svg" alt="" class="greyline">
     </div>
-
     <div class="applicta">
         <div class="container">
             <div class="applicta__card">
                 <div class="appl">
                     <div class="applicta__content">
                         <div class="applicta__text">
-                            <p class="diagnostics">Запишитесь на бесплатную диагностку и получите ** в 
+                            <p class="diagnostics">Запишитесь на бесплатную диагностку и получите ** в
                                 <br>
-                                подарок до (+3 дня со дня открытия сайта)</p>
+                                подарок до (+3 дня со дня открытия сайта)
+                            </p>
                         </div>
-                        <!-- <div class="applicta__tel">
-                            <button class="tel__but">*Номер телефона</button>
-                        </div> -->
-    
-                        <form action=""></form>
-                        <div class="row">
-                            <label for="phone"></label>
-                        </div>
-                        <div class="row">
-                            <input type="text" name="phone" id="phone" placeholder="*Номер телефона" />
-                        </div>
-    
-                        <div class="applicta__button">
-                            <button class="diagnost">Получить бесплатную диагностику</button>
-                        </div>
+                        <form action="" class="applicata__form">
+                            <div class="row">
+                                <input type="text" name="phone" id="phone" placeholder="*Номер телефона"
+                                    class="applic__phone" />
+                            </div>
+
+                            <div class="applicta__button">
+                                <button class="diagnost">Получить бесплатную диагностику</button>
+                            </div>
+                        </form>
                     </div>
-
-
-
                 </div>
-                
-
-                <!-- +{7}(000)000-00-00 -->
             </div>
         </div>
     </div>
+    <div class="description__line">
+        <img src="./img/Line12.svg" alt="" class="greyline">
+    </div>
+    <div class="certif">
+        <div class="container">
+            <div class="certif__content">
+                <p class="certif__text">Все наши услуги имеют все нужные сертификаты качества:</p>
+                <div class="certif__photo">
+                    <img src="./img/strelka-left.svg" alt="" class="strelka">
+                    <img src="./img/cerf-1.png" alt="" class="cerf">
+                    <img src="./img/cerf-2.png" alt="" class="cerf">
+                    <img src="./img/cerf-3.png" alt="" class="cerf">
+                    <img src="./img/cerf-4.png" alt="" class="cerf">
+                    <img src="./img/strelka-right.svg" alt="" class="strelka">
+                </div>
+                <div class="circle">
+                    <img src="./img/Ellipse-blue.svg" alt="" class="button1">
+                    <img src="./img/Ellipse.svg" alt="" class="button1">
+                    <img src="./img/Ellipse.svg" alt="" class="button1">
+                    <img src="./img/Ellipse.svg" alt="" class="button1">
+                    <img src="./img/Ellipse.svg" alt="" class="button1">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="description__line">
+        <img src="./img/Line12.svg" alt="" class="greyline">
+    </div>
+    <div class="team">
+        <div class="container">
+            <div class="team__content">
+                <p class="team__text">Наша команда состоит исключительно из высококвалифицированных <br> специалистов с
+                    большим опытом работы</p>
+                <div class="team__works">
+                    <div class="team__cards">
+                        <img src="./img/strelka-left.svg" alt="" class="strelka">
 
-    <!-- <input type="tel"> -->
-    <script src="https://unpkg.com/imask"></script>
-    <script src="./js/main.js"></script>
+                        <div class="team__card">
+                            <img src="./img/worker.png" alt="" class="team__worker">
+                            <div class="team__texts">
+                                <p class="team__title">Николай Сергеевич Коцуба</p>
+                                <p class="team__descr">Ветеринар, психолог, зубной <br> фрилансер</p>
+                                <p class="team__subbtitle">Опыт работы: 10 лет</p>
+                            </div>
+                            <button class="team__btn">Записаться</button>
+                        </div>
+
+                        <div class="team__card">
+                            <img src="./img/worker.png" alt="" class="team__worker">
+                            <div class="team__texts">
+                                <p class="team__title">Николай Сергеевич Коцуба</p>
+                                <p class="team__descr">Ветеринар, психолог, зубной <br> фрилансер</p>
+                                <p class="team__subbtitle">Опыт работы: 10 лет</p>
+                            </div>
+                            <button class="team__btn">Записаться</button>
+                        </div>
+
+                        <div class="team__card">
+                            <img src="./img/worker.png" alt="" class="team__worker">
+                            <div class="team__texts">
+                                <p class="team__title">Николай Сергеевич Коцуба</p>
+                                <p class="team__descr">Ветеринар, психолог, зубной <br> фрилансер</p>
+                                <p class="team__subbtitle">Опыт работы: 10 лет</p>
+                            </div>
+                            <button class="team__btn">Записаться</button>
+                        </div>
+
+                        <div class="team__card">
+                            <img src="./img/worker.png" alt="" class="team__worker">
+                            <div class="team__texts">
+                                <p class="team__title">Николай Сергеевич Коцуба</p>
+                                <p class="team__descr">Ветеринар, психолог, зубной <br> фрилансер</p>
+                                <p class="team__subbtitle">Опыт работы: 10 лет</p>
+                            </div>
+                            <button class="team__btn">Записаться</button>
+                        </div>
+                        <img src="./img/strelka-right.svg" alt="" class="strelka">
+                    </div>
+                </div>
+                <div class="circle">
+                    <img src="./img/Ellipse-blue.svg" alt="" class="button1">
+                    <img src="./img/Ellipse.svg" alt="" class="button1">
+                    <img src="./img/Ellipse.svg" alt="" class="button1">
+                    <img src="./img/Ellipse.svg" alt="" class="button1">
+                    <img src="./img/Ellipse.svg" alt="" class="button1">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <script src="https://unpkg.com/imask"></script>
+        <script src="./js/main.js"></script>
+        <script src="./js/index.js"></script>
 </body>
 
 </html>

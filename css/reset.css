@@ -22,6 +22,8 @@ textarea,
 select {
     font-family: inherit;
     color: inherit;
+	outline: none;
+	background-color: transparent;
 }
 
 input[type="submit"] {
