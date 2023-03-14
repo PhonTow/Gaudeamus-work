@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slider.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700;800&display=swap"
@@ -32,13 +34,22 @@
                 </div>
 
                 <div class="header-media">
-                    <a href="#" class="media"><img src="./img/socmedia.svg" alt=""></a>
+                    <a href="#" class="media"><img src="./img/telegrammedia.svg" alt=""></a>
+                    <a href="#" class="media"><img src="./img/vkmedia.svg" alt=""></a>
+                    <a href="#" class="media"><img src="./img/whatsapmedia.svg" alt=""></a>
+
                     <p class="help-header">Есть вопросы? <br>
                         Звоните, поможем!</p>
                 </div>
                 <div class="header-call">
-                    <a href="#" class="phone"><img src="./img/phone.svg" alt=""></a>
-                    <a href="#" class="link">Заказать звонок</a>
+                    <div class="header-call__tel">
+                        <img src="./img/bx_bxs-phone.svg" alt="" class="header-call__img">
+                        <a href="#" class="phone">
+                            <p class="header-call__numb">+7 (495) 777-96-37</p>
+                        </a>
+                    </div>
+                    <!-- <a href="#" class="link">Заказать звонок</a> -->
+                    <div class="header-call__txt"><a href="#" class="link">Заказать звонок</a></div>
                 </div>
                 <button class="burger">
                     <span></span>
@@ -155,21 +166,38 @@
                     </div>
 
                 </div>
-                <div class="dental-office_photo">
+                <div class="about">
+                    <div class="about__body">
+                        <div class="swiper slider slider-about">
+                            <div class="swiper-wrapper slider__wrap">
+                                <div class="swiper-slide slide"><img src="./img/Dental-office_1.png" alt=""></div>
+                                <div class="swiper-slide slide"><img src="./img/Dental-office_2.png" alt=""></div>
+                                <div class="swiper-slide slide"><img src="./img/Dental-office_3.png" alt=""></div>
+                                <div class="swiper-slide slide"><img src="./img/Dental-office_1.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__arrows">
+                        <button class="slider-arrow is-prev"><img style="transform:rotate(180deg);"
+                                src="./img/arrow.svg" alt=""></button>
+                        <button class="slider-arrow is-next"><img src="./img/arrow.svg" alt=""></button>
+                    </div>
+                </div>
+
+                <!-- <div class="dental-office_photo">
                     <img src="./img/strelka-left.svg" alt="" class="strelka">
                     <img src="./img/Dental-office_1.png" alt="" class="dental">
                     <img src="./img/Dental-office_2.png" alt="" class="dental1">
                     <img src="./img/Dental-office_3.png" alt="" class="dental">
                     <img src="./img/strelka-right.svg" alt="" class="strelka">
-
                 </div>
-                <div class="circle">
+                <div class="pagination">
                     <img src="./img/Ellipse-blue.svg" alt="" class="button1">
                     <img src="./img/Ellipse.svg" alt="" class="button1">
                     <img src="./img/Ellipse.svg" alt="" class="button1">
                     <img src="./img/Ellipse.svg" alt="" class="button1">
                     <img src="./img/Ellipse.svg" alt="" class="button1">
-                </div>
+                </div> -->
             </div>
 
         </div>
@@ -249,7 +277,7 @@
                     <img src="./img/cerf-4.png" alt="" class="cerf">
                     <img src="./img/strelka-right.svg" alt="" class="strelka">
                 </div>
-                <div class="circle">
+                <div class="pagination">
                     <img src="./img/Ellipse-blue.svg" alt="" class="button1">
                     <img src="./img/Ellipse.svg" alt="" class="button1">
                     <img src="./img/Ellipse.svg" alt="" class="button1">
@@ -313,7 +341,7 @@
                         <img src="./img/strelka-right.svg" alt="" class="strelka">
                     </div>
                 </div>
-                <div class="circle">
+                <div class="pagination">
                     <img src="./img/Ellipse-blue.svg" alt="" class="button1">
                     <img src="./img/Ellipse.svg" alt="" class="button1">
                     <img src="./img/Ellipse.svg" alt="" class="button1">
@@ -321,15 +349,150 @@
                     <img src="./img/Ellipse.svg" alt="" class="button1">
                 </div>
             </div>
+            <div class="description__line">
+                <img src="./img/Line12.svg" alt="" class="greyline">
+            </div>
+        </div>
+        <div class="review">
+            <div class="container">
+                <div class="review__content">
+                    <div class="review__text">
+                        <p class="review__title">Более 70 % клиентов приходят к нам по <br> рекомендации близких людей
+                        </p>
+                    </div>
+                </div>
+                <div class="about">
+                    <div class="about__body">
+                        <div class="swiper slider slider-about">
+                            <div class="swiper-wrapper slider__wrap">
+                                <div class="swiper-slide slide"><img src="./img/review-photo-.png" alt="">Отзыв</div>
+                                <div class="swiper-slide slide"><img src="./img/review-photo-.png" alt="">Отзыв</div>
+                                <div class="swiper-slide slide"><img src="./img/review-photo-.png" alt="">Отзыв</div>
+                                <div class="swiper-slide slide"><img src="./img/review-photo-.png" alt="">Отзыв</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__arrows">
+                        <button class="slider-arrow is-prev"><img style="transform:rotate(180deg);"
+                                src="./img/arrow.svg" alt=""></button>
+                        <button class="slider-arrow is-next"><img src="./img/arrow.svg" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination">
+                <img src="./img/Ellipse-blue.svg" alt="" class="button1">
+                <img src="./img/Ellipse.svg" alt="" class="button1">
+                <img src="./img/Ellipse.svg" alt="" class="button1">
+                <img src="./img/Ellipse.svg" alt="" class="button1">
+                <img src="./img/Ellipse.svg" alt="" class="button1">
+            </div>
+        </div>
+        <div class="description__line">
+            <img src="./img/Line12.svg" alt="" class="greyline">
+        </div>
+        <div class="faq">
+            <div class="container">
+                <div class="faq__content">
+                    <div class="faq__title">
+                        <p class="faq__text">Отвечаем на вопросы, которые нам задают чаще всего</p>
+                    </div>
+                    <div class="faq__card">
+                        <div class="faq__card-1">
+                            <div class="card__title-1">
+
+                                <p class="card__title-quest">Когда ставить имплант после удаления зуба?</p>
+                                <button><img src="./img/arrows.svg" alt="" class="arrows"></button>
+
+
+                            </div>
+                            
+                                <p class="card__texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                                    condimentum est sit amet ullamcorper porta. <br> Aenean et augue eros. Pellentesque
+                                    habitant morbi tristique senectus et netus et malesuada fames ac turpis <br>
+                                    egestas. Maecenas commodo enim ut neque efficitur lobortis. Nunc volutpat sit amet
+                                    ex ac malesuada. Phasellus <br> maximus iaculis lacus vel consequat. Phasellus
+                                    tincidunt bibendum quam ac euismod. Duis orci nisl, dapibus eu <br> ipsum quis,
+                                    vehicula pulvinar erat. Quisque leo ante, feugiat quis ultrices ut, interdum
+                                    pharetra lectus. Curabitur <br> cursus mattis diam, ut condimentum felis sodales sit
+                                    amet. Aliquam nec vehicula erat.</p>
+                                
+                            
+
+                        </div>
+
+                            <div class="faq__card-2">
+                                <div class="card__title-2">
+                                    <p class="card__title-quest">Какие виды оплаты вы принимаете?</p>
+                                    <button><img src="./img/arow.svg" alt="" class="arow"></button>
+                                </div>
+                            </div>
+
+
+                            <div class="faq__card-2">
+                                <div class="card__title-2">
+                                    <p class="card__title-quest">Можно ли оформить рассрочку на ваши услуги?</p>
+                                    <button><img src="./img/arow.svg" alt="" class="arow"></button>
+                                </div>
+                            </div>
+
+
+                            <div class="faq__card-2">
+                                <div class="card__title-2">
+                                    <p class="card__title-quest">Сколько времени занимает лечение зубов?</p>
+                                    <button><img src="./img/arow.svg" alt="" class="arow"></button>
+                                </div>
+                            </div>
+
+
+                            <div class="faq__card-2">
+                                <div class="card__title-2">
+                                    <p class="card__title-quest">Из какого материала вы делаете протезы?</p>
+                                    <button><img src="./img/arow.svg" alt="" class="arow"></button>
+                                </div>
+                            </div>
+                        
+                       
+                </div>
+            </div>
+        </div>
+        <div class="description__line">
+            <img src="./img/Line12.svg" alt="" class="greyline">
+        </div>
+        <div class="applicta">
+            <div class="container">
+                <div class="applicta__card">
+                    <div class="appl">
+                        <div class="applicta__content">
+                            <div class="applicta__text">
+                                <p class="diagnostics">Запишитесь на бесплатную диагностку и получите ** в
+                                    <br>
+                                    подарок до (+3 дня со дня открытия сайта)
+                                </p>
+                            </div>
+                            <form action="" class="applicata__form">
+                                <div class="row">
+                                    <input type="text" name="phone" id="phone" placeholder="*Номер телефона"
+                                        class="applic__phone" />
+                                </div>
+    
+                                <div class="applicta__button">
+                                    <button class="diagnost">Получить бесплатную диагностику</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="description__line">
+            <img src="./img/Line12.svg" alt="" class="greyline">
         </div>
 
 
 
 
 
-
-
-
+        <script src="https://unpkg.com/swiper@8.0.7/swiper-bundle.min.js"></script>
         <script src="https://unpkg.com/imask"></script>
         <script src="./js/main.js"></script>
         <script src="./js/index.js"></script>

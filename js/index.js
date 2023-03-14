@@ -89,3 +89,25 @@ burger.addEventListener('click', function() {
 	menu.classList.toggle('is-show')
 	body.classList.toggle('is-lock')
 })
+
+
+// Слайдер about
+const sliderAbout = new Swiper('.slider-about', {
+	loop: true,
+	centeredSlides: true,
+	navigation: {
+		nextEl: '.slider-arrow.is-next',
+		prevEl: '.slider-arrow.is-prev',
+	},
+
+	breakpoints: {
+		500: {
+			slidesPerView: 3,
+			spaceBetween: 74,
+		},
+		0: {
+			slidesPerView: 1,
+			spaceBetween: 16,
+		}
+	}
+})
